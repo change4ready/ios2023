@@ -1,7 +1,7 @@
 import UIKit
 
 
-var statusCode: Int = 404
+var statusCode: Int = 418
 var errorString: String = "The request failed: "
 
 switch statusCode {
@@ -20,4 +20,31 @@ case let code where code < 100 || code >= 600:
 default:
     errorString = "Unexpected error encountered."
 }
+
+let error = (code: statusCode, msg: errorString)
+error.code
+error.msg
+
+let firstErrorCode = 404
+let secondErrorCode = 418
+let errorCodes = (firstErrorCode, secondErrorCode)
+
+switch errorCodes {
+case (404, 404):
+    print("both error codes were 404.")
+case (404, _):
+    print("Only the 1st code is 404, and we don't care about the 2nd code.")
+case(_, 404):
+    print("Only the 2nd code is 404, and we don't care about the 1st code.")
+default:
+    print("Neither code is 404.")
+}
+
+let age = 25
+if case 18...36 = age, age >= 25 {
+    print("In cool demographic, and can rent a car")
+}
+
+
+
 
