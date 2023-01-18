@@ -18,6 +18,7 @@
 		C1E3F28B297723F000971B39 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3F28A297723F000971B39 /* ItemsViewController.swift */; };
 		C1E3F28D2977252500971B39 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3F28C2977252500971B39 /* Item.swift */; };
 		C1E3F28F297752EB00971B39 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3F28E297752EB00971B39 /* ItemStore.swift */; };
+		C1E3F2912978551100971B39 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3F2902978551100971B39 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C1E3F28A297723F000971B39 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		C1E3F28C2977252500971B39 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C1E3F28E297752EB00971B39 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		C1E3F2902978551100971B39 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C1E3F28A297723F000971B39 /* ItemsViewController.swift */,
+				C1E3F2902978551100971B39 /* ItemCell.swift */,
 				C1E3F25A2977210500971B39 /* AppDelegate.swift */,
 				C1E3F25C2977210500971B39 /* SceneDelegate.swift */,
 				C1E3F28E297752EB00971B39 /* ItemStore.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				C1E3F28D2977252500971B39 /* Item.swift in Sources */,
 				C1E3F28B297723F000971B39 /* ItemsViewController.swift in Sources */,
+				C1E3F2912978551100971B39 /* ItemCell.swift in Sources */,
 				C1E3F25B2977210500971B39 /* AppDelegate.swift in Sources */,
 				C1E3F28F297752EB00971B39 /* ItemStore.swift in Sources */,
 				C1E3F25D2977210500971B39 /* SceneDelegate.swift in Sources */,
